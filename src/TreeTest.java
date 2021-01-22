@@ -17,7 +17,7 @@ public class TreeTest {
     }
 
     public static void main(String[] args) {
-    TreeNode treeNode=new TreeNode(1);
+            TreeNode treeNode=new TreeNode(1);
     treeNode.left=new TreeNode(2);
     treeNode.right=new TreeNode(3);
         inorder2(treeNode);
@@ -50,7 +50,6 @@ public  static void  inOrder(TreeNode root){
             }
         }
     }
-
 
 
 
